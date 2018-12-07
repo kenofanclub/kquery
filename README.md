@@ -1,5 +1,7 @@
-[jQuery](https://jquery.com/) — New Wave JavaScript
+[kQuery](https://jquery.com/) — Even Newer Wave JavaScript - More Memes!
 ==================================================
+
+> **Note:** This repository is a joke fork. Please don't use for realz.
 
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fjquery%2Fjquery.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fjquery%2Fjquery?ref=badge_shield)
 
