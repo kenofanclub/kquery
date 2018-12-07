@@ -10,24 +10,24 @@
 Contribution Guides
 --------------------------------------
 
-In the spirit of open source software development, jQuery always encourages community code contribution. To help you get started and before you jump into writing code, be sure to read these important contribution guidelines thoroughly:
+In the spirit of open source software development, kQuery always encourages community code contribution. To help you get started and before you jump into writing code, be sure to read these important contribution guidelines thoroughly:
 
 1. [Getting Involved](https://contribute.jquery.org/)
 2. [Core Style Guide](https://contribute.jquery.org/style-guide/js/)
-3. [Writing Code for jQuery Foundation Projects](https://contribute.jquery.org/code/)
+3. [Writing Code for kQuery Foundation Projects](https://contribute.jquery.org/code/)
 
 
-Environments in which to use jQuery
+Environments in which to use kQuery
 --------------------------------------
 
 - [Browser support](https://jquery.com/browser-support/)
-- jQuery also supports Node, browser extensions, and other non-browser environments.
+- kQuery also supports Node, browser extensions, and other non-browser environments.
 
 
-What you need to build your own jQuery
+What you need to build your own kQuery
 --------------------------------------
 
-In order to build jQuery, you need to have the latest Node.js/npm and git 1.7 or later. Earlier versions might work, but are not supported.
+In order to build kQuery, you need to have the latest Node.js/npm and git 1.7 or later. Earlier versions might work, but are not supported.
 
 For Windows, you have to download and install [git](https://git-scm.com/downloads) and [Node.js](https://nodejs.org/en/download/).
 
@@ -38,22 +38,22 @@ Linux/BSD users should use their appropriate package managers to install git and
 if you swing that way. Easy-peasy.
 
 
-How to build your own jQuery
+How to build your own kQuery
 ----------------------------
 
-Clone a copy of the main jQuery git repo by running:
+Clone a copy of the main kQuery git repo by running:
 
 ```bash
-git clone git://github.com/jquery/jquery.git
+git clone git://github.com/kenofanclub/kquery.git
 ```
 
 Enter the jquery directory and run the build script:
 ```bash
 cd jquery && npm run build
 ```
-The built version of jQuery will be put in the `dist/` subdirectory, along with the minified copy and associated map file.
+The built version of kQuery will be put in the `dist/` subdirectory, along with the minified copy and associated map file.
 
-If you want to create custom build or help with jQuery development, it would be better to install [grunt command line interface](https://github.com/gruntjs/grunt-cli) as a global package:
+If you want to create custom build or help with kQuery development, it would be better to install [grunt command line interface](https://github.com/gruntjs/grunt-cli) as a global package:
 
 ```
 npm install -g grunt-cli
@@ -75,8 +75,8 @@ grunt -help
 
 ### Modules
 
-Special builds can be created that exclude subsets of jQuery functionality.
-This allows for smaller custom builds when the builder is certain that those parts of jQuery are not being used.
+Special builds can be created that exclude subsets of kQuery functionality.
+This allows for smaller custom builds when the builder is certain that those parts of kQuery are not being used.
 For example, an app that only used JSONP for `$.ajax()` and did not need to calculate offsets or positions of elements could exclude the offset and ajax/xhr modules.
 
 Any module may be excluded except for `core`, and `selector`. To exclude a module, pass its path relative to the `src` folder (without the `.js` extension).
